@@ -4,10 +4,13 @@
 	"name": "Alpine-3-20-3",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	// "image": "mcr.microsoft.com/devcontainers/base:alpine-3.20"
-	"image": "rvl-registry-p02.ad.bcm.edu/docker_proxy/library/alpine:3.20.3"
+	"image": "rvl-registry-p02.ad.bcm.edu/docker_proxy/library/alpine:3.20.3",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/python:1": {}
+	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
