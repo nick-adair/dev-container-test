@@ -12,8 +12,6 @@
 
 ## About <a name = "about"></a>
 
-Just a simple update
-
 Just trying to get a simple test devcontainer running locally using rancher desktop, not native docker or podman.  RancherDesktop support local kubernetes which is really what I want.
 
 ## Getting Started <a name = "getting_started"></a>
